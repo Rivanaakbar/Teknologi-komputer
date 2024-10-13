@@ -1,0 +1,156 @@
+<style>
+
+.body {
+    background-color: lightblue;
+}
+
+.nama{
+	font-size:30px;
+	font-weight:bold;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.a {
+  text-align: center;
+  font-size:40px;
+  font-weight:bold;
+}
+
+.Atas {
+  width: 1100px;
+  height: 400px;
+  border: 1px solid black;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: lightgray;
+  background-image: url("iphone.jpg");
+  background-size: cover; 
+  background-position: center;
+}
+
+.Container {
+  width: 1100px;
+  margin: auto;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.Kiri {
+  width: 600px;
+  margin-top:50px;
+}
+
+.Tengah, .Kiri1, .Kiri2 {
+  width: 850px;
+  height: 250px;
+  border: 1px solid black;
+  background-color: lightgray;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  text-align: center;
+  background-image: url("bgbody.jpg");
+  background-size: cover; 
+  background-position: center;  
+}
+
+h1{
+	color: white;
+}
+
+.Kanan {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-top:50px;
+}
+
+.KotakKanan {
+  width: 200px;
+  height: 187.5px;
+  background-color: lightgray;
+  margin-bottom: 18.75px;
+  border: 1px solid black;
+  background-image: url("Apple.png");
+  background-size: cover; 
+  background-position: center;
+}
+.KotakKanan1 {
+  width: 200px;
+  height: 187.5px;
+  background-color: lightgray;
+  margin-bottom: 18.75px;
+  border: 1px solid black;
+  background-image: url("android.png");
+  background-size: cover; 
+  background-position: center;
+}
+.KotakKanan2 {
+  width: 200px;
+  height: 187.5px;
+  background-color: lightgray;
+  margin-bottom: 18.75px;
+  border: 1px solid black;
+  background-image: url("windows.jpg");
+  background-size: cover; 
+  background-position: center;
+}
+.KotakKanan3 {
+  width: 200px;
+  height: 187.5px;
+  background-color: lightgray;
+  margin-bottom: 18.75px;
+  border: 1px solid black;
+  background-image: url("linux.png");
+  background-size: cover; 
+  background-position: center;
+}
+
+.Bawah {
+  width: 1100px;
+  display: flex; 
+  justify-content: space-between; 
+  margin: auto;
+  margin-top: 40px; 
+
+}
+
+.Bawah1{
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: url("tokoh1.jpg");
+  background-size: cover; 
+  background-position: center; 
+}
+.Bawah2{
+width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: url("tokoh3.jpeg");
+  background-size: cover; 
+  background-position: center; 
+}
+.Bawah3{
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: url("tokoh2.jpg");
+  background-size: cover; 
+  background-position: center; 
+}
+.Bawah4{
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: url("tokoh5.jpg");
+  background-size: cover; 
+  background-position: center; 
+}
+  
+</style>
